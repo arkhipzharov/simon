@@ -99,7 +99,7 @@
     methods: {
       setOrGetDifficultyNameWithStorage() {
         let difficultyName = this.difficultyName;
-        const difficultyNameStorage = +localStorage.difficultyName;
+        const difficultyNameStorage = localStorage.difficultyName;
         if (difficultyNameStorage) {
           difficultyName = difficultyNameStorage;
         } else {
