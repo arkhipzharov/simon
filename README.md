@@ -15,6 +15,9 @@ Remember combination of sounds game. Live preview is available
 
 ## 🌐 Production
 
+> You can read more about this approach
+[here](https://medium.com/linagora-engineering/deploying-your-js-app-to-github-pages-the-easy-way-or-not-1ef8c48424b7)
+
 1. `npm run build`
 2. `cd dist`
 3. `git add .`
@@ -28,9 +31,6 @@ Remember combination of sounds game. Live preview is available
 
 `npm run lint`
 
-> this can be useful if you are debugging eslint and don't want to manually
-> check problems in every file, or just for quick search
-
 ### With code formatting
 
 `npm run lint:fix`
@@ -40,14 +40,14 @@ Remember combination of sounds game. Live preview is available
 `// (pending|unknown|number)` mark at the top of comment describes the status of
 the problem <- which is discussed in the rest of it
 
-example:
+Example:
 
 ``` javascript
 // (unknown)
 // sometimes `window.svgSpriteInjector is not a function occures`,
 // maybe because of npm/webpack cache or other
 ```
-meaning:
+Meaning:
 * pending: problem can be solved and we just need to monitor further
 investigations (pull request, etc.) until one fixes it
 * unknown: cause of problem is unknown and we can try to explore
@@ -61,3 +61,4 @@ this later, but for now it should be fixed by workaround or in other ways
 don't see change in styles, reload webpack
 * 1 low npm packages vulnerability is
 [pending](https://github.com/constverum/stylelint-config-rational-order/issues/39)
+* Files for debugging in '.' folder inside chrome dev tools
