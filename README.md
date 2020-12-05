@@ -1,12 +1,13 @@
 # Simon The Game
 
 Remember combination of sounds game. Live preview is available
-[here](http://lime-test.h1n.ru/simon)
+[here](https://shiftenko.github.io/simon/)
 
 ## 📥 Setup
 
 1. `git clone https://github.com/shiftenko/simon`
 2. `npm i`
+2. `git worktree add dist gh-pages`
 
 ## 👷‍♂ Development
 
@@ -15,7 +16,11 @@ Remember combination of sounds game. Live preview is available
 ## 🌐 Production
 
 1. `npm run build`
-2. Upload files from dist folder on hosting
+2. `cd dist`
+3. `git add .`
+4. `git commit`
+4. `git push origin gh-pages`
+5. wait a bit and check updates [here](https://shiftenko.github.io/simon/)
 
 ## Lint
 
@@ -55,4 +60,4 @@ this later, but for now it should be fixed by workaround or in other ways
 * If you are made adjustments to global scss variables/mixins/functions and
 don't see change in styles, reload webpack
 * 1 low npm packages vulnerability is
-(pending)[https://github.com/constverum/stylelint-config-rational-order/issues/39]
+[pending](https://github.com/constverum/stylelint-config-rational-order/issues/39)
