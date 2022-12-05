@@ -1,11 +1,11 @@
 # Simon The Game
 
 Remember combination of sounds game. Live preview is available
-[here](https://shiftenko.github.io/simon/)
+[here](https://arkhipzharov.github.io/simon/)
 
 ## 📥 Setup
 
-1. `git clone https://github.com/shiftenko/simon`
+1. `git clone https://github.com/arkhipzharov/simon`
 2. `npm i`
 2. `git worktree add dist gh-pages`
 
@@ -23,7 +23,7 @@ Remember combination of sounds game. Live preview is available
 3. `git add .`
 4. `git commit`
 4. `git push origin gh-pages`
-5. wait a bit and check updates [here](https://shiftenko.github.io/simon/)
+5. wait a bit and check updates [here](https://arkhipzharov.github.io/simon/)
 
 ## Lint
 
